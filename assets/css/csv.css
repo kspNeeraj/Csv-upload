@@ -1,0 +1,31 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:  #dddddd;
+  }
+
+  header{
+    background-color: orange;
+  }
+  h3{
+    font-family: sans-serif;
+    color: white;
+  }
+  #submit{
+    height: 35px;
+    color: white;
+    background-color: steelblue;
+  }
+  #file{
+      height: 50px;
+  }

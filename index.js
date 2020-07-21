@@ -6,7 +6,16 @@ const port = 8000;
 
 const ejs= require('ejs');
 
+const multer = require('multer');
+
+
+
 const path= require('path');
+const { constants } = require('buffer');
+
+
+//path to static files of assets
+app.use(express.static('./assets'));
 
 app.use(express.urlencoded());
 

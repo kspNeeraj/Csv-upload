@@ -1,14 +1,25 @@
 <html>
     <head>
         <title></title>
+        <link rel="stylesheet" href="./css/csv.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
-            <p>upload csv file</p>
-            <form action="">
-                <input type="file" name="CSV">
-                <input type="submit">
+            <h3>upload new csv file</h3>
+            <form id="form" action="/submit" method="POST" enctype="multipart/form-data">
+                <input onclick="rese()" id="file" type="file" name="CSV" accept=".csv">
+                <input id="submit"  type="submit">
             </form>
         </header>
+        
+        <div id="table">
+          
+        </div>
     </body>
+    <script type="text/javascript" src="./js/csv_ajax.js"></script>
+    <script>
+        // console.log(result);
+        // var obj = JSON.parse(result);
+    </script>
 </html>
